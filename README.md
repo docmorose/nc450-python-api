@@ -24,8 +24,11 @@ The API can be used to connect to an NC450 camera at the ip address `ip_addr` wi
 ```py
 from tplink import NC450
 
-camera = NC450(ip_addr, username, password)
-camera.login()
+# provide IP address of camera
+camera = NC450(ip_addr)
+
+# username is clear text, pasword is binary array, so use b'myPassword'; returns json string with connection data
+camera.login(username, password)
 
 #Turn camera to right for 2 seconds
 camera.turn('e',2)
