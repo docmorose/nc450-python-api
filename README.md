@@ -46,24 +46,24 @@ camera.logout()
 
 ## NC450 URLS
 
-###MJEG stream:
+### MJEG stream:
 
 HD: http://[id_address]:8080/stream/video/mjpeg?resolution=HD&&Username=[username]&&Password=[password]
 
 VGA: http://[id_address]:8080/stream/video/mjpeg?resolution=VGA&&Username=[username]&&Password=[password]
 
-###Snapshot:
+### Snapshot:
 
 HD: http://[id_address]:8080/stream/snapshot.jpg?resolution=HD&&Username=[username]&&Password=[password]&&attachment=1
 
 VGA: http://[id_address]:8080/stream/snapshot.jpg?resolution=VGA&&Username=[username]&&Password=[password]&&attachment=1
 
-###SnapshotIE2:
+### SnapshotIE2:
 
 HD: http://[id_address]:8080/stream/snapshot.jpg?resolution=HD&&Username=[username]&&Password=[password]&&tempid=[tempid],
 
 VGA: http://[id_address]:8080/stream/snapshot.jpg?resolution=VGA&&Username=[username]&&Password=[password]&&tempid=[tempid]
 
-###VLC stream:
+### VLC stream:
 
 HD: rtsp://[ip_address]/h264_hd.sdp
